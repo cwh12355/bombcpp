@@ -23,7 +23,7 @@ void ar_list(std::array<T, n> const &arr)
     std::cout << "\n";
 }
 
-void view_extern();
+void stl_main();
 
 
 #endif

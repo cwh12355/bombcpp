@@ -61,3 +61,13 @@ uint8_t s1 = 124;
 void review_extrn_origin(){
     printf("oring extern value in oring files is %d\n",s1);
 }
+std::vector<float> sum_data_f = {};
+void cpp_main(){
+#if __DYNAMIC_I_O__
+    i_o();
+#endif
+     output(sum_data_f);
+     recast_type_c();
+    recast_type_cpp();
+    review_extrn_origin();
+}

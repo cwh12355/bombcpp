@@ -12,9 +12,6 @@ int recast_type_c();
 #ifdef __cplusplus
 }
 
-int i_o();
-bool output(std::vector<float> const & attr);
-int recast_type_cpp();
-void review_extrn_origin();
+void cpp_main();
 #endif
 #endif //__TT_FEATURE__

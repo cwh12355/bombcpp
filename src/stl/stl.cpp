@@ -5,6 +5,7 @@
 
 #include"stl.h"
 #include "spdlog/spdlog.h"
+std::array< int ,9> arr{};
 // template < class T,size_t n>
 // void ar_list(std::array<T, n> const &arr)
 // {
@@ -25,4 +26,9 @@
 extern uint8_t s1;
 void view_extern(){
     std::cout << " extern value is " << std::dec<< s1 << std::endl;
+}
+
+void stl_main(){
+    ar_list(arr);
+    view_extern();
 }
