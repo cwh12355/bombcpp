@@ -93,6 +93,7 @@ std::vector<T> pri_auto(int n,std::vector<T> &attr);
 void fun1( int c ,vector<string> & body ,vector<int> & f);
 void check_default_fun2 (int fir ,int sen = 23);
 void check_default_fucn3(int fir ,int _);
+void template_main();
 
 
 #endif

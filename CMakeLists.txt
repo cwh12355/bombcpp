@@ -12,6 +12,7 @@ include_directories(${PROJECT_SOURCE_DIR}/src/main)
 include_directories(${PROJECT_SOURCE_DIR}/src/template)
 include_directories(${PROJECT_SOURCE_DIR}/src/stl)
 include_directories(${PROJECT_SOURCE_DIR}/src/cpp)
+include_directories(${PROJECT_SOURCE_DIR}/src/object)
 
 
 aux_source_directory(${PROJECT_SOURCE_DIR}/ SRCS)
@@ -20,6 +21,7 @@ aux_source_directory(${PROJECT_SOURCE_DIR}/src/stl SRCS)
 aux_source_directory(${PROJECT_SOURCE_DIR}/src/template SRCS)
 aux_source_directory(${PROJECT_SOURCE_DIR}/src/main SRCS)
 aux_source_directory(${PROJECT_SOURCE_DIR}/src/cpp SRCS)
+aux_source_directory(${PROJECT_SOURCE_DIR}/src/object SRCS)
 
 
 set(CMAKE_CXX_STANDARD 17)            # 设定 C++ 标准
