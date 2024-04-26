@@ -9,6 +9,8 @@
 #include "template.h"
 #include "feature.h"
 #include "object.h"
+#include "refence.h"
+#include "func.h"
 
 int main()
 {
@@ -18,6 +20,8 @@ int main()
     stl_main();
     cpp_main();
     object_main();
+    ref_main();
+    func_main();
 
 
 }
